@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /Users/sunqiying/.yarn/bin/yarn.js add vue-cli-plugin-vue-router -D --tilde
+
+PATH: 
+  /Users/sunqiying/Desktop/code/test/vueThree/oneAdmin/node_modules/.bin:/Users/sunqiying/Desktop/code/test/vueThree/node_modules/.bin:/Users/sunqiying/Desktop/code/test/node_modules/.bin:/Users/sunqiying/Desktop/code/node_modules/.bin:/Users/sunqiying/Desktop/node_modules/.bin:/Users/sunqiying/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/Users/sunqiying/.yarn/bin:/Users/sunqiying/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/vue-cli-plugin-vue-router: Not found
+      at Request.params.callback [as _callback] (/Users/sunqiying/.yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/sunqiying/.yarn/lib/cli.js:140749:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/sunqiying/.yarn/lib/cli.js:141721:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/sunqiying/.yarn/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "oneAdmin",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build"
+    },
+    "dependencies": {
+      "vue": "^3.0.4"
+    },
+    "devDependencies": {
+      "vite": "^1.0.0-rc.13",
+      "@vue/compiler-sfc": "^3.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
